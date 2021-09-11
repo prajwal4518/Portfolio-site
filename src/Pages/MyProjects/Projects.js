@@ -27,7 +27,7 @@ const Projects = () => {
             <img
               onClick={handleClick}
               id="proj-img"
-              src="/assets/farmer.jpg"
+              src="https://images.pexels.com/photos/4544167/pexels-photo-4544167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt="railways"
             ></img>
           </div>
@@ -37,7 +37,7 @@ const Projects = () => {
             <img
               onClick={imageContainer2}
               id="proj-img"
-              src="/assets/dashboard2.jpg"
+              src="https://images.pexels.com/photos/1389460/pexels-photo-1389460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt="railways"
             ></img>
           </div>
