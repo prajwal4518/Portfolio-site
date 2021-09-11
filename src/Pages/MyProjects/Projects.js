@@ -62,7 +62,7 @@ const Projects = () => {
           <div className="fill">
             <img
               id="proj-img"
-              src="/assets/project3-img.jpg"
+              src="https://images.pexels.com/photos/4497591/pexels-photo-4497591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt="railways"
             ></img>
           </div>
