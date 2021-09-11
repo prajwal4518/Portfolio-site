@@ -17,7 +17,9 @@ export const Homepage = () => {
                 I'm here to built your Dream idea to reality.
               </p>
             </div>
-            <button className="cta-button">Let's connect...</button>
+            <a href="#contact-page" style={{ textDecoration: "none" }}>
+              <button className="cta-button">Let's connect...</button>
+            </a>
           </div>
         </div>
         <div className="child">
