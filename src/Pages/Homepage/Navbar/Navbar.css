@@ -1,0 +1,35 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  width: 99%;
+  padding: 7px 0 0 7px;
+}
+.icon2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 16em;
+  margin: 1.8em 1em 0 0;
+}
+.navText {
+  padding: 0 0.5em;
+  /* font-family: "Poppins", sans-serif; */
+  color: rgba(255, 255, 255, 0.938);
+  font-size: 1.3rem;
+  font-weight: thin;
+  /* padding-right: 30px; */
+}
+
+#powerTech {
+  height: 6em;
+  margin-left: 3.5rem;
+}
+/*# sourceMappingURL=Navbar.css.map */

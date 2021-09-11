@@ -1,0 +1,228 @@
+.main-homepage {
+  position: relative;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 600px) {
+  .parent .parent {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.parent .child {
+  width: 3vw;
+  padding: auto;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.parent img {
+  width: 100%;
+  height: 100%;
+}
+
+.parent .child:first-child {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.parent .child:first-child .main-content {
+  padding: 10px 0px 0px 1.5em;
+  height: 40vh;
+  font-size: 3em;
+  color: black;
+  font-weight: 100;
+}
+
+.parent .child:first-child #subtitle {
+  margin-top: 0;
+  font-weight: bold;
+  position: relative;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+
+.parent .child:first-child #subtitle2 {
+  font-weight: normal;
+  position: relative;
+  width: 23rem;
+  /* margin-top: 0px; */
+  font-size: 1.4rem;
+  margin-top: 1.5em;
+}
+
+.parent .child:first-child .cta-button {
+  height: 50px;
+  padding: 0 1rem;
+  border: solid black;
+  background-color: #0e0e0e;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  position: absolute;
+  cursor: pointer;
+}
+.parent .child:first-child .cta-button:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.parent .child:last-child {
+  background-color: #0e0e0e;
+}
+
+.parent .child:last-child .skill-sec {
+  margin: 20vh 0px 0px 11px;
+  padding: 1rem;
+  font-size: 1.5em;
+  color: #f0f0f0;
+  font-weight: normal;
+}
+
+.parent .child:last-child .skill-sec p {
+  font-size: medium;
+  width: 23.5rem;
+}
+
+.parent .child:last-child .skill-sec .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.parent .child:last-child .skill-sec .box-container .box {
+  height: 3em;
+  width: 15em;
+  position: relative;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.parent .child:last-child .skill-sec .box-container .box .icon {
+  height: 1.5em;
+  width: 1.7em;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-top: 19px;
+}
+
+.parent .child:last-child .skill-sec .box-container .box p {
+  position: absolute;
+  margin: 0 0 0 3.5rem;
+  font-size: 0.7em;
+  color: #ebebeb;
+  font-weight: 80;
+  top: 10px;
+}
+
+.parent .child:last-child .skill-sec .box-container .box .box-line {
+  margin-top: 2em;
+  position: relative;
+  height: 0.5em;
+  width: 15em;
+  /* background-color: #292929; */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(22%, #4c4edf),
+    color-stop(45%, #4c4edf),
+    color-stop(50%, #4c4edf),
+    color-stop(55%, #4c4edf),
+    color-stop(80%, #1a1a1a),
+    to(#1a1a1a)
+  );
+  border: 1px solid #4d4d4d;
+  border-radius: 2rem;
+  margin: 30px 0 0 20px;
+}
+.parent .child:last-child .skill-sec .box-container .box .box-line2 {
+  margin-top: 2em;
+  position: relative;
+  height: 0.5em;
+  width: 15em;
+  /* background-color: #292929; */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(22%, #4c4edf),
+    color-stop(45%, #4c4edf),
+    color-stop(50%, #4c4edf),
+    color-stop(55%, #4c4edf),
+    color-stop(80%, #1a1a1a),
+    to(#1a1a1a)
+  );
+  border: 1px solid #4d4d4d;
+  border-radius: 2rem;
+  margin: 30px 0 0 20px;
+}
+.parent .child:last-child .skill-sec .box-container .box .box-line3 {
+  margin-top: 2em;
+  position: relative;
+  height: 0.5em;
+  width: 15em;
+  /* background-color: #292929; */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(22%, #4c4edf),
+    color-stop(45%, #4c4edf),
+    color-stop(50%, #4c4edf),
+    color-stop(100%, #4c4edf),
+    color-stop(100%, #1a1a1a),
+    to(#1a1a1a)
+  );
+  border: 1px solid #4d4d4d;
+  border-radius: 2rem;
+  margin: 30px 0 0 20px;
+}
+.parent .child:last-child .skill-sec .box-container .box .box-line4 {
+  margin-top: 2em;
+  position: relative;
+  height: 0.5em;
+  width: 15em;
+  /* background-color: #292929; */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(22%, #4c4edf),
+    color-stop(45%, #4c4edf),
+    color-stop(50%, #4c4edf),
+    color-stop(100%, #4c4edf),
+    color-stop(100%, #1a1a1a),
+    to(#1a1a1a)
+  );
+  border: 1px solid #4d4d4d;
+  border-radius: 2rem;
+  margin: 30px 0 0 20px;
+}
+/*# sourceMappingURL=HomepageStyle.css.map */

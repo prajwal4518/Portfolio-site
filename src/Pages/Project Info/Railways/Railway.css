@@ -1,0 +1,162 @@
+.project2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #0e0e0e;
+  height: 100vh;
+}
+.pr2-block1 {
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-aroun; */
+  width: 50vw;
+}
+.mockupContainer {
+  position: relative;
+  height: 52vh;
+}
+.pr2-block1-img {
+  position: absolute;
+  height: 52vh;
+  background: #1a1a1a;
+  box-shadow: 8px 8px 0px #131313, -8px -8px 0px #212121;
+  animation-duration: 2s;
+  animation-name: mockupAnimation;
+}
+
+.pr2-desc {
+  position: absolute;
+  bottom: 2rem;
+  padding-left: 4em;
+  color: rgb(255, 255, 255, 0.7);
+  font-weight: normal;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  flex-direction: flex-end;
+  animation-duration: 2s;
+  animation-name: mockupAnimation-reverse;
+}
+.pr2-desc span {
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 50px;
+  /* border-radius: 50px; */
+  /* background: #1a1a1a; */
+  padding-left: 6rem;
+}
+.pr2-block1 h1 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.pr2-block1 button {
+  height: 3em;
+  width: 8em;
+  /* background-color: #3149b6; */
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: none;
+  margin: 1rem 0 0 0rem;
+  border-radius: 50px;
+  background: #3149b6;
+  box-shadow: 5px 5px 0px #26388c, -5px -5px 0px #3c5ae0;
+}
+
+#roundText {
+  height: 9em;
+  animation: spin 6s linear infinite;
+  /* <--- */
+}
+
+.textEffect {
+  position: absolute;
+  bottom: -60px;
+  left: -5rem;
+  display: block;
+  animation: initialAnimation 0.7s 0s linear;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes initialAnimation {
+  0% {
+    transform: rotate(90deg) scale(0) translateX(0px) translateY(0%)
+      skewX(30deg) skewY(20deg);
+  }
+  100% {
+  }
+}
+
+.pr2Block2 {
+  position: relative;
+  background-color: #0e0e0e;
+  width: 45vw;
+}
+
+.imageContainer {
+  margin-top: -20%;
+  display: flex;
+  flex-direction: column;
+}
+.imageContainer {
+  animation-duration: 2s;
+  animation-name: mockupAnimation;
+}
+@keyframes mockupAnimation {
+  from {
+    margin-top: -60%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+
+@keyframes pr2-block1-animation {
+  from {
+    margin-top: -10%;
+    height: 0px;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+
+@keyframes mockupAnimation-reverse {
+  from {
+    margin-bottom: -5%;
+    opacity: 0;
+  }
+
+  to {
+    margin-bottom: 0%;
+    opacity: 1;
+  }
+}
+.pr2Image {
+  border-radius: 0.5em;
+  margin-right: 4em;
+  border-radius: 35px;
+  background: #1a1a1a;
+  box-shadow: 8px 8px 9px hsl(0deg 0% 35%);
+}
+
+.pr2Image:nth-child(2) {
+  margin: 2em 4em 2em 0;
+}

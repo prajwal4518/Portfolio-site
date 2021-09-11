@@ -1,0 +1,100 @@
+.project-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #0e0e0e;
+}
+.textContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 5%;
+  width: 60%;
+}
+
+.projectDesc {
+  color: rgb(255, 255, 255, 0.7);
+  font-weight: normal;
+  font-size: 1.1rem;
+  width: 30em;
+  margin-left: -33px;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.farmTitle {
+  color: #fff;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 3rem;
+}
+
+.textContainer button {
+  height: 3em;
+  width: 8em;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 40px;
+  border: none;
+  background-color: #18a558;
+}
+
+.projectContainer {
+  position: relative;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100vh;
+}
+
+.mockup1 {
+  position: absolute;
+  top: 8%;
+  left: -20%;
+  /* z-index: 1; */
+  /* height: 80vh; */
+}
+/* .mockup2 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0%;
+  right: 10%;
+  overflow: hidden;
+  /* margin-left: 5em; */
+/*  .mockup3 {
+  
+} */
+.imgAnimation {
+  animation-duration: 2s;
+  animation-name: secondAnimation;
+}
+@keyframes secondAnimation {
+  from {
+    margin-bottom: -60%;
+    /* width: 300%; */
+  }
+
+  to {
+    margin-bottom: 0%;
+    /* width: 100%; */
+  }
+}
+
+.mockup1 {
+  animation-duration: 2s;
+  animation-name: firstAnimation;
+}
+
+@keyframes firstAnimation {
+  from {
+    margin-top: -60%;
+    /* width: 300%; */
+  }
+
+  to {
+    margin-top: 0%;
+    /* width: 100%; */
+  }
+}
